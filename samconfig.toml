@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "error-response-example-non-proxy"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-s4bev8b7k3xe"
+s3_prefix = "error-response-example-non-proxy"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
